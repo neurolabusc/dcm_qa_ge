@@ -1,0 +1,20 @@
+# (0008,0080) LO [rfsamay]                                #   8, 1 InstitutionName 
+# (0008,1090) LO [SIGNA Architect]                        #  16, 1 ManufacturersModelName 
+# (0043,1062) SH [48]                                     #   2, 1 Unknown Tag & Data (maybe the exam number - not always)
+
+Exam	Series	      Modality	                   Description	Nslices	Nphases	Rows	Col	TE		TR		RunNo	EESP	AcqMat
+48	01	            MR	             3-Plane Localizer	15	1	256	256	79.932000	1000.000000	05120	0	0\256\192\0
+48	02	            MR	      Ax fMRI HB8 72sl int asc	72	60	64	64	30.000000	1000.000000	06656	552	64\0\0\64
+48	03	            MR	      Ax fMRI HB8 72sl seq asc	72	60	64	64	30.000000	1000.000000	07168	552	64\0\0\64
+48	04	            MR	      Ax fMRI HB8 80sl int asc	80	60	64	64	30.000000	1000.000000	07680	556	64\0\0\64
+48	05	            MR	      Ax fMRI HB8 80sl seq asc	80	60	64	64	30.000000	1000.000000	08192	556	64\0\0\64
+48	06	            MR	      Ax fMRI HB8 77sl int asc	77	60	64	64	30.000000	1000.000000	08704	556	64\0\0\64
+48	07	            MR	      Ax fMRI HB8 77sl seq asc	77	60	64	64	30.000000	1000.000000	09216	556	64\0\0\64
+48	08	            MR	      Ax fMRI HB8 72sl int des	72	60	64	64	30.000000	1000.000000	09728	552	64\0\0\64
+48	09	            MR	      Ax fMRI HB8 72sl seq des	72	60	64	64	30.000000	1000.000000	10240	552	64\0\0\64
+48	10	            MR	      Ax fMRI HB8 80sl int des	80	60	64	64	30.000000	1000.000000	10752	556	64\0\0\64
+48	11	            MR	      Ax fMRI HB8 80sl seq des	80	60	64	64	30.000000	1000.000000	11264	556	64\0\0\64
+48	12	            MR	      Ax fMRI HB8 77sl int des	77	60	64	64	30.000000	1000.000000	11776	556	64\0\0\64
+48	13	            MR	      Ax fMRI HB8 77sl seq des	77	60	64	64	30.000000	1000.000000	12288	556	64\0\0\64
+48	14	            MR	      Ax fMRI HB3 48sl int asc	48	60	64	64	30.000000	2000.000000	12800	548	64\0\0\64
+48	15	            MR	      Ax fMRI HB3 48sl seq asc	48	60	64	64	30.000000	2000.000000	13312	548	64\0\0\64

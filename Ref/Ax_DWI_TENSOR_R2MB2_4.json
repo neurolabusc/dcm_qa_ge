@@ -3,6 +3,7 @@
 	"MagneticFieldStrength": 3,
 	"ImagingFrequency": 127.728,
 	"Manufacturer": "GE",
+	"PulseSequenceName": "epi",
 	"ManufacturersModelName": "SIGNA Pioneer",
 	"InstitutionName": "orange",
 	"DeviceSerialNumber": "0000000000orange",
@@ -47,5 +48,5 @@
 		-0.0901011	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20200929"
+	"ConversionSoftwareVersion": "v1.0.20201010"
 }

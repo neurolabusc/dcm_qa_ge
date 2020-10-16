@@ -1,0 +1,15 @@
+Series  SofwareRelease  PSD   #Slices #Slicesodd/even MB-Factor #Slice/MB-factor  TR  Slice Order Ascen/descen  Done? timestampsfiles?    ViewOrder
+2       DV28.0_R02      epiRT 72      0               8         9                 1   Interleaved Ascending     1     1                   Top/down
+3       DV28.0_R02      epiRT 72      0               8         9                 1   Sequential  Ascending     1     1                   Top/down
+4       DV28.0_R02      epiRT 80      0               8         10                2   Interleaved Ascending     1     1                   Top/down
+5       DV28.0_R02      epiRT 80      0               8         10                1   Sequential  Ascending     1     1                   Top/down
+6       DV28.0_R02      epiRT 77      1               8         9.625             1   Interleaved Ascending     1     1                   Top/down
+7       DV28.0_R02      epiRT 77      1               8         9.625             1   Sequential  Ascending     1     1                   Top/down
+8       DV28.0_R02      epiRT 72      0               8         9                 1   Interleaved Descending    1     1                   Top/down
+9       DV28.0_R02      epiRT 72      0               8         9                 1   Sequential  Descending    1     1                   Top/down
+10      DV28.0_R02      epiRT 80      0               8         10                2   Interleaved Descending    1     1                   Top/down
+11      DV28.0_R02      epiRT 80      0               8         10                1   Sequential  Descending    1     1                   Top/down
+12      DV28.0_R02      epiRT 77      1               8         9.625             1   Interleaved Descending    1     1                   Top/down
+13      DV28.0_R02      epiRT 77      1               8         9.625             1   Sequential  Descending    1     1                   Top/down
+14      DV28.0_R02      epiRT 48      0               3         16                2   Interleaved Ascending     1     1                   Bottum/up
+15      DV28.0_R02      epiRT 48      0               3         16                2   Sequential  Ascending     1     1                   Bottum/up
