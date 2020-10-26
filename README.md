@@ -24,7 +24,7 @@ The BIDS tag [PhaseEncodingDirection](https://bids-specification.readthedocs.io/
 
 The diffusion images were acquired on a GE 3T SIGNA Pioneer with software versions 28\LX\MR29.1_EA_2039.g by Jaemin Shin. 
 
-The fMRI images are provided to validate slice timing. The were acquired on a GE 3T SIGNA Architect with software versions 28\LX\MR Software release:DV28.0_R02_1947.a by Brice Fernandez.
+The fMRI images are provided to validate slice timing. The images were acquired on a GE 3T SIGNA Architect with software versions 28\LX\MR Software release:DV28.0_R02_1947.a by Brice Fernandez.
 
 ## Series
 
