@@ -4,6 +4,7 @@
 	"ImagingFrequency": 127.698,
 	"Manufacturer": "GE",
 	"PulseSequenceName": "epiRT",
+	"InternalPulseSequenceName": "EPI",
 	"ManufacturersModelName": "SIGNA Architect",
 	"InstitutionName": "rfsamay",
 	"DeviceSerialNumber": "000000000RFSAMAY",
@@ -128,5 +129,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201010"
+	"ConversionSoftwareVersion": "v1.0.20201020"
 }

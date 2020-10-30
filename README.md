@@ -26,6 +26,10 @@ The diffusion images were acquired on a GE 3T SIGNA Pioneer with software versio
 
 The fMRI images are provided to validate slice timing. The images were acquired on a GE 3T SIGNA Architect with software versions 28\LX\MR Software release:DV28.0_R02_1947.a by Brice Fernandez.
 
+## GE Slice timing
+
+There are several possible strategies for extracting slice timing from [GE DICOM images](https://github.com/rordenlab/dcm2niix/tree/master/GE). The provided C source code slicetime.cpp demonstrates one method. Here, the DICOM header is read to determine the multi-band factor <mb>, number of slices per volume <slices>, sampling rate <tr>, sequential or interleaved order <isInterleaved>, ascending or descending order <isDescending>, software release (versions prior to 27.0 R3 used different mulit-band slice order) <is27v3> and group delay <GroupDelay>. This project can be simply compiled, e.g. `c++ slicetime.cpp -o`, and run by supplying the desired arguments. Note that this project is designed to determine the slice times for GE gradient-echo EPI sequences (e.g. fMRI and resting-state). The GE spin-echo sequences used for diffusion weighted images use a different pattern.
+
 ## Series
 
 * 01_Ax_DWI_TENSOR_R2
@@ -85,3 +89,32 @@ The fMRI images are provided to validate slice timing. The images were acquired 
 * SliceTiming\15_Ax_fMRI_HB3_48sl_seq_asc
   *  Description: Axial fMRI sequence, x8 Multiband, 48 slices, sequential, ascending.
 
+* SliceTimingMPh\2_fMRI_Multiphase_Des
+  *  Description: Axial fMRI sequence, x8 Multiband, 10 slices, sequential, descending, “Multiphase” sequence.
+
+* SliceTimingMPh\3_fMRI_Multiphase_Des_0.35Delay        
+  *  Description: Axial fMRI sequence, x8 Multiband, 10 slices, sequential, descending, 350ms group delay, “Multiphase” sequence.
+
+* SliceTimingMPh\5_fMRI_Multiphase_Des_VariableDelays1s
+  *  Description: Axial fMRI sequence, x8 Multiband, 10 slices, sequential, descending, “Multiphase” sequence with variable sampling rate.
+
+* SliceTimingRT\2_epiRT_IntAsc_GD0
+  *  Description: Axial fMRI sequence, 32 slices, interleaved, ascending, no group delay, “epiRT” sequence.
+
+* SliceTimingRT\2_epiRT_IntAsc_GD3s
+  *  Description: Axial fMRI sequence, 32 slices, interleaved, ascending, 3s group delay (5s sampling rate), “epiRT” sequence.
+  
+* SliceTimingRT\3_epiRT_IntAsc_GD33
+  *  Description: Axial fMRI sequence, 32 slices, interleaved, ascending, 33ms group delay, “epiRT” sequence.
+
+* SliceTimingRT\4_epiRT_IntAsc_GD55
+  *  Description: Axial fMRI sequence, 32 slices, interleaved, ascending, 55ms group delay, “epiRT” sequence.
+  
+* SliceTimingRT\5_epiRT_IntAscHB3_GD0  
+  *  Description: Axial fMRI sequence, x3 Multiband, 45 slices, interleaved, ascending, no group delay, “epiRT” sequence.
+
+* SliceTimingRT\6_epiRT_IntDesHB3_GD33
+  *  Description: Axial fMRI sequence, x3 Multiband, 45 slices, interleaved, descending, 33ms group delay, “epiRT” sequence.
+  
+* SliceTimingRT\7_epiRT_IntDesHB3_GD55
+  *  Description: Axial fMRI sequence, x3 Multiband, 45 slices, interleaved, descending, 55ms group delay, “epiRT” sequence.
