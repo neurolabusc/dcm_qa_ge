@@ -12,7 +12,7 @@
 	"SoftwareVersions": "28\\LX\\MR29.1_EA_2039.g",
 	"MRAcquisitionType": "3D",
 	"SeriesDescription": "3D Ax T1 MP-RAGE_R22",
-	"ProtocolName": "3D Ax T1 MP-RAGE_R22",
+	"ProtocolName": "Brain Advanced Sequences",
 	"ScanningSequence": "RM\\IR",
 	"SequenceVariant": "NONE",
 	"ScanOptions": "EDR_GEMS\\FILTERED_GEMS\\ACC_GEMS\\FSA_GEMS\\IR_GEMS",
@@ -44,5 +44,5 @@
 		-0.224796	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201020"
+	"ConversionSoftwareVersion": "v1.0.20210308"
 }

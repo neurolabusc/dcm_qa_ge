@@ -14,7 +14,7 @@
 	"SoftwareVersions": "28\\LX\\MR Software release:DV28.0_R02_1947.a",
 	"MRAcquisitionType": "2D",
 	"SeriesDescription": "epiRT IntAsc GD33",
-	"ProtocolName": "epiRT IntAsc GD33",
+	"ProtocolName": "Brain Advanced Sequences",
 	"ScanningSequence": "EP\\GR",
 	"SequenceVariant": "SS",
 	"ScanOptions": "SAT_GEMS\\EPI_GEMS\\ACC_GEMS\\FS",
@@ -35,8 +35,8 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"ParallelReductionFactorInPlane": 2,
-	"EffectiveEchoSpacing": 0.000544,
-	"TotalReadoutTime": 0.034272,
+	"EffectiveEchoSpacing": 0.000267683,
+	"TotalReadoutTime": 0.016864,
 	"PixelBandwidth": 7812.5,
 	"PhaseEncodingDirection": "j",
 	"SliceTiming": [
@@ -81,5 +81,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201020"
+	"ConversionSoftwareVersion": "v1.0.20210308"
 }

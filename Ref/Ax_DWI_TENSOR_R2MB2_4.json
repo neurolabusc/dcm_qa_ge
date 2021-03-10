@@ -13,7 +13,7 @@
 	"SoftwareVersions": "28\\LX\\MR29.1_EA_2039.g",
 	"MRAcquisitionType": "2D",
 	"SeriesDescription": "Ax DWI TENSOR R2MB2",
-	"ProtocolName": "Ax DWI TENSOR R2MB2",
+	"ProtocolName": "Brain Advanced Sequences",
 	"ScanningSequence": "EP\\SE",
 	"SequenceVariant": "NONE",
 	"ScanOptions": "CL_GEMS\\SAT_GEMS\\EDR_GEMS\\EPI_GEMS\\HYPERBAND_GEMS\\ACC_GEMS\\PFF\\FS",
@@ -35,8 +35,8 @@
 	"AcquisitionMatrixPE": 128,
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 2,
-	"EffectiveEchoSpacing": 0.000992,
-	"TotalReadoutTime": 0.25296,
+	"EffectiveEchoSpacing": 0.000245082,
+	"TotalReadoutTime": 0.062496,
 	"PixelBandwidth": 1953.12,
 	"PhaseEncodingDirection": "j-",
 	"ImageOrientationPatientDICOM": [
@@ -48,5 +48,5 @@
 		-0.0901011	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201020"
+	"ConversionSoftwareVersion": "v1.0.20210308"
 }
