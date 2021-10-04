@@ -25,7 +25,6 @@ void sliceTimeGE (struct TDICOMdata * d, int mb, int dim3, float TR, bool isInte
 	int nExcitations = ceil(float(dim3) / float(mb));		
 	if ((mb > 1) && (!is27r3) && ((nExcitations % 2) == 0) ) {//number of slices divided by MB factor should is Even
 			nExcitations ++; //https://osf.io/q4d53/wiki/home/; Figure 3 of https://pubmed.ncbi.nlm.nih.gov/26308571/
-			printf("WARNING: Slice times for this GE HyperBand dataset (pre-27.0_R03) are NOT yet fully validated.\n");
 		}
 	int nDiscardedSlices = (nExcitations * mb) - dim3;
 	float secPerSlice = (TR - groupDelaysec) / (nExcitations);
