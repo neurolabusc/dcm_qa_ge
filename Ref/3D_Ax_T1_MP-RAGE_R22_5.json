@@ -28,6 +28,9 @@
 	"InversionTime": 1,
 	"FlipAngle": 8,
 	"CoilString": "48HA",
+	"NumberOfPointsPerArm": 256,
+	"NumberOfArms": 256,
+	"NumberOfExcitations": 1,
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"AcquisitionMatrixPE": 256,
@@ -44,5 +47,5 @@
 		-0.224796	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

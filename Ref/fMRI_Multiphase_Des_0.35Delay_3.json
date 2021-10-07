@@ -31,6 +31,9 @@
 	"FlipAngle": 90,
 	"PhaseEncodingPolarityGE": "Flipped",
 	"CoilString": "48HP",
+	"NumberOfPointsPerArm": 64,
+	"NumberOfArms": 64,
+	"NumberOfExcitations": 1,
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"AcquisitionMatrixPE": 64,
@@ -60,5 +63,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }
