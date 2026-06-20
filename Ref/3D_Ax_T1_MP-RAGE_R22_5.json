@@ -5,6 +5,7 @@
 	"Manufacturer": "GE",
 	"ManufacturersModelName": "SIGNA Pioneer",
 	"InstitutionName": "orange",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "0000000000orange",
 	"StationName": "00090004",
 	"BodyPart": "BRAIN",
@@ -17,7 +18,7 @@
 	"ScanningSequence": "RM\\IR",
 	"SequenceVariant": "NONE",
 	"ScanOptions": "EDR_GEMS\\FILTERED_GEMS\\ACC_GEMS\\FSA_GEMS\\IR_GEMS",
-	"PulseSequenceName": "MP-RAGE",
+	"SequenceName": "MP-RAGE",
 	"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "MAGNITUDE"],
 	"SeriesNumber": 5,
 	"AcquisitionTime": "00:20:56.000000",
@@ -44,6 +45,7 @@
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelReductionFactorOutOfPlane": 2,
+	"AcquisitionDuration": 311.679,
 	"PixelBandwidth": 244.141,
 	"ImageOrientationPatientDICOM": [
 		0.99801,
@@ -55,5 +57,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["anat","_acq-EFGRE3Dp2_run-5_T1w"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

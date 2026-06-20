@@ -6,6 +6,7 @@
 	"InternalPulseSequenceName": "EPI",
 	"ManufacturersModelName": "SIGNA Architect",
 	"InstitutionName": "rfsamay",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "000000000RFSAMAY",
 	"StationName": "123234",
 	"BodyPart": "BRAIN",
@@ -17,8 +18,9 @@
 	"ProtocolName": "Brain Advanced Sequences",
 	"ScanningSequence": "EP\\GR",
 	"SequenceVariant": "SS",
+	"PulseSequenceType": "Multiband Gradient Echo EPI",
 	"ScanOptions": "SAT_GEMS\\EDR_GEMS\\EPI_GEMS\\HYPERBAND_GEMS\\ACC_GEMS\\FS",
-	"PulseSequenceName": "epiRT",
+	"SequenceName": "epiRT",
 	"ImageType": ["ORIGINAL", "PRIMARY", "EPI", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 14,
 	"AcquisitionTime": "22:00:46.000000",
@@ -46,7 +48,9 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000269651,
+	"AcquisitionDuration": 120,
 	"TotalReadoutTime": 0.016988,
 	"PixelBandwidth": 7812.5,
 	"PhaseEncodingDirection": "j-",
@@ -109,5 +113,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-EPIp2m3_dir-AP_run-14_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

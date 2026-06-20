@@ -6,6 +6,7 @@
 	"InternalPulseSequenceName": "EPI2",
 	"ManufacturersModelName": "SIGNA Pioneer",
 	"InstitutionName": "orange",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "0000000000orange",
 	"StationName": "00090004",
 	"BodyPart": "BRAIN",
@@ -17,8 +18,9 @@
 	"ProtocolName": "Brain Advanced Sequences",
 	"ScanningSequence": "EP\\SE",
 	"SequenceVariant": "NONE",
+	"PulseSequenceType": "Multiband Spin Echo EPI",
 	"ScanOptions": "CL_GEMS\\SAT_GEMS\\EDR_GEMS\\EPI_GEMS\\HYPERBAND_GEMS\\ACC_GEMS\\PFF\\FS",
-	"PulseSequenceName": "epi2",
+	"SequenceName": "epi2",
 	"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "MAGNITUDE"],
 	"SeriesNumber": 4,
 	"AcquisitionTime": "00:18:12.000000",
@@ -47,7 +49,9 @@
 	"AcquisitionMatrixPE": 128,
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000492094,
+	"AcquisitionDuration": 8.00001,
 	"TotalReadoutTime": 0.125484,
 	"PixelBandwidth": 1953.12,
 	"PhaseEncodingDirection": "j-",
@@ -69,7 +73,7 @@
 		0.801351,
 		-0.0901011	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
-	"BidsGuess": ["dwi","_acq-EPI2p2m2_dir-AP_run-4_dwi"],
+	"BidsGuess": ["derived","_TENSOR"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

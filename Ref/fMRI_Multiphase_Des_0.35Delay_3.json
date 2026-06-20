@@ -6,6 +6,7 @@
 	"InternalPulseSequenceName": "EPI",
 	"ManufacturersModelName": "SIGNA Architect",
 	"InstitutionName": "rfsamay",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "000000000RFSAMAY",
 	"StationName": "123234",
 	"BodyPart": "BRAIN",
@@ -17,8 +18,9 @@
 	"ProtocolName": "Brain Advanced Sequences",
 	"ScanningSequence": "EP\\GR",
 	"SequenceVariant": "SS",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "SAT_GEMS\\MP_GEMS\\EPI_GEMS\\ACC_GEMS\\FS",
-	"PulseSequenceName": "epi",
+	"SequenceName": "epi",
 	"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "MAGNITUDE"],
 	"SeriesNumber": 3,
 	"AcquisitionTime": "07:32:30.000000",
@@ -45,7 +47,9 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000267683,
+	"AcquisitionDuration": 13.15,
 	"TotalReadoutTime": 0.016864,
 	"PixelBandwidth": 7812.5,
 	"PhaseEncodingDirection": "j",
@@ -70,5 +74,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-EPIp2_dir-PA_run-3_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
